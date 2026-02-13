@@ -30,6 +30,9 @@ const Products = () => {
           ))}
       </div>
       <div>
+        <h1>Total Price {totalPrice}</h1>
+      </div>
+      <div>
         <button onClick={()=>dispatch(clearCart())}>Clear Cart</button>
       </div>
     </div>
